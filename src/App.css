@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.div_Card {
+  width: 400px;
+  border: 1px solid black;
+}
+
+.div_Card img {
+  width: 100%;
+}
+
+.div_footer {
+  background-color: beige;
+  width: 100%;
 }
